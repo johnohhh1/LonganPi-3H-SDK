@@ -1,2 +1,7 @@
+out/
+.cache/
+*.img
+*.bin
+*.dtbo
+*.fex
 *~
-build/*

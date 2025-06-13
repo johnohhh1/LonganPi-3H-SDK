@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 08 Jun 2025 16:07:34 -0400
+Source: linux-upstream
+Binary: linux-headers-6.7.0-rc3+ linux-image-6.7.0-rc3+ linux-libc-dev
+Built-For-Profiles: noudeb
+Architecture: source arm64
+Version: 6.7.0-rc3-g31e870271410-2
+Distribution: jammy
+Urgency: low
+Maintainer: yoda <yoda@yoda-Legion-5-Pro-16ITH6>
+Changed-By: yoda <yoda@yoda-Legion-5-Pro-16ITH6>
+Description:
+ linux-headers-6.7.0-rc3+ - Linux kernel headers for 6.7.0-rc3+ on arm64
+ linux-image-6.7.0-rc3+ - Linux kernel, version 6.7.0-rc3+
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (6.7.0-rc3-g31e870271410-2) jammy; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ eb7bfe472c0847504cff164467a1f8d3b2f60460 1197 linux-upstream_6.7.0-rc3-g31e870271410-2.dsc
+ 98a14b833064cbe9eede39962905006833c8a3c4 233120052 linux-upstream_6.7.0-rc3-g31e870271410.orig.tar.gz
+ c8146c00f0f48929595b90238c2adf54f76a9271 42141 linux-upstream_6.7.0-rc3-g31e870271410-2.debian.tar.gz
+ 5d7e1d530001811991b211f5a2c8387b4bf3dc76 8800354 linux-headers-6.7.0-rc3+_6.7.0-rc3-g31e870271410-2_arm64.deb
+ fa4a5b0a32e9163d4127eb5d3d91731305870829 17629894 linux-image-6.7.0-rc3+_6.7.0-rc3-g31e870271410-2_arm64.deb
+ e339790bad57437ada4af37029a12c9f5e967d24 1345786 linux-libc-dev_6.7.0-rc3-g31e870271410-2_arm64.deb
+ a035f5ee6909e651c1ce70786e509fa0d0b02127 8289 linux-upstream_6.7.0-rc3-g31e870271410-2_arm64.buildinfo
+Checksums-Sha256:
+ 361deade75ed892f498de12b639723d746e4ef5e497fe68e6ab147a2442d9cfd 1197 linux-upstream_6.7.0-rc3-g31e870271410-2.dsc
+ 3202d0456bf70130f6c3dbb99b386bb752b12d55b8945e4f8cd912a3d622d94f 233120052 linux-upstream_6.7.0-rc3-g31e870271410.orig.tar.gz
+ 0271bc7f763889a502606ef1cc9f17d5c1aac9fc3cc227b760ca86b9c34acbb4 42141 linux-upstream_6.7.0-rc3-g31e870271410-2.debian.tar.gz
+ 069759f3a16ffe9faa7926aa070ba6ac70b54cff44a808a355b2757f55a1a179 8800354 linux-headers-6.7.0-rc3+_6.7.0-rc3-g31e870271410-2_arm64.deb
+ fe1b019422d697649996255fb2643eafc1aa332096a506c1b5023f957547a666 17629894 linux-image-6.7.0-rc3+_6.7.0-rc3-g31e870271410-2_arm64.deb
+ dd01f1250a93de28eee5a5d2354aceed20d2a3fea1bddbf4dbdf321886dbe322 1345786 linux-libc-dev_6.7.0-rc3-g31e870271410-2_arm64.deb
+ 6ece9b37db2e2f4db36e1cecaa228ef7551cdd675bc601896b7e309496a37c14 8289 linux-upstream_6.7.0-rc3-g31e870271410-2_arm64.buildinfo
+Files:
+ 9df939c8120ae6ccd0f19dc9c7baf786 1197 kernel optional linux-upstream_6.7.0-rc3-g31e870271410-2.dsc
+ 6e63d1044c3efdd954c0b4991740cdca 233120052 kernel optional linux-upstream_6.7.0-rc3-g31e870271410.orig.tar.gz
+ c87dad99d781bb5dc812606646e69df6 42141 kernel optional linux-upstream_6.7.0-rc3-g31e870271410-2.debian.tar.gz
+ d721791fb10b2e5af845221cfd47a73d 8800354 kernel optional linux-headers-6.7.0-rc3+_6.7.0-rc3-g31e870271410-2_arm64.deb
+ e13c33d7c7ef879c3043664da1883cdf 17629894 kernel optional linux-image-6.7.0-rc3+_6.7.0-rc3-g31e870271410-2_arm64.deb
+ 9605ab651e52da7fdab06b23e4ee63b4 1345786 devel optional linux-libc-dev_6.7.0-rc3-g31e870271410-2_arm64.deb
+ ad0b97fd0a69e1922c98be01a60114a2 8289 kernel optional linux-upstream_6.7.0-rc3-g31e870271410-2_arm64.buildinfo
